@@ -1,6 +1,6 @@
 {
   "name": "@tivix/eslint-config",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Tivix's ESLint config",
   "main": "index.js",
   "author": "tivix",
@@ -12,20 +12,20 @@
     "url": "https://github.com/tivix/js-standard-eslint-config.git"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.9.0",
-    "@typescript-eslint/parser": "^2.9.0",
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-config-prettier": "^6.7.0",
+    "@typescript-eslint/eslint-plugin": "^4.3.0",
+    "@typescript-eslint/parser": "^4.3.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.12.0",
     "eslint-import-resolver-ts": "^0.4.2",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jest": "^23.0.5",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.16.0",
-    "eslint-plugin-react-hooks": "^2.3.0"
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.0.2",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.21.2",
+    "eslint-plugin-react-hooks": "^4.1.2"
   },
   "peerDependencies": {
     "@tivix/prettier-config": "git@github.com:Tivix/js-standard-prettier-config.git",
-    "eslint": ">=6.6.0 <7"
+    "eslint": "^7"
   }
 }
