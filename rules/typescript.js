@@ -28,7 +28,10 @@ module.exports = () => {
       "import/prefer-default-export": 0,
       "react/jsx-filename-extension": 0,
       "react/prop-types": 0,
-      "react/jsx-props-no-spreading": 0
+      "react/jsx-props-no-spreading": 0,
+      "no-use-before-define": "off",
+      "@typescript-eslint/no-use-before-define": "warn",
+      "@typescript-eslint/no-floating-promises": "off"
     },
     settings: {
       "import/parsers": {
