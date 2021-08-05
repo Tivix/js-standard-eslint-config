@@ -1,6 +1,6 @@
 {
   "name": "@tivix/eslint-config",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Tivix's ESLint config",
   "main": "index.js",
   "author": "tivix",
@@ -12,8 +12,8 @@
     "url": "https://github.com/tivix/js-standard-eslint-config.git"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.29.0",
-    "@typescript-eslint/parser": "^4.29.0",
+    "@typescript-eslint/eslint-plugin": "4.5.0",
+    "@typescript-eslint/parser": "4.5.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^8.3.0",
