@@ -13,7 +13,7 @@ module.exports = ({
     'plugin:jest/recommended',
     'plugin:jest/style',
     'prettier',
-    ...(react ? ['airbnb/hooks', 'prettier/react'] : []),
+    ...(react ? ['airbnb/hooks'] : []),
   ],
   rules: {
     ...importRules,
